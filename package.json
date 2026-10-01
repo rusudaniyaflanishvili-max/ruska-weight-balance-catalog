@@ -1,0 +1,8 @@
+{
+  "name": "ruska-weight-balance-catalog",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && ((command -v unzip >/dev/null 2>&1 && unzip -q site.zip -d dist) || python3 -m zipfile -e site.zip dist)"
+  }
+}
